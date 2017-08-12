@@ -1,3 +1,9 @@
+budgie-weather-applet (0.1-0ubuntu2~zesty) zesty; urgency=medium
+
+  * add missing dependency libjson-glib-dev
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Sat, 12 Aug 2017 12:45:06 +0100
+
 budgie-weather-applet (0.1-0ubuntu1~zesty) zesty; urgency=medium
 
   * Initial release

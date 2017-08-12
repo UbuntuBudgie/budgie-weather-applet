@@ -11,7 +11,8 @@ Build-Depends: debhelper (>= 9),
  libgnome-desktop-3-dev,
  meson,
  libpeas-dev,
- libgweather-3-dev
+ libgweather-3-dev,
+ libjson-glib-dev
 Standards-Version: 3.9.8
 Vcs-Browser: https://github.com/UbuntuBudgie/budgie-weather-applet/tree/debian
 Vcs-Git: https://github.com/UbuntuBudgie/budgie-weather-applet -b debian

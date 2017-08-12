@@ -1,0 +1,12 @@
+build/.ninja_deps
+build/meson-private/build.dat
+build/meson-private/cleantrees.dat
+build/meson-private/coredata.dat
+build/meson-private/install.dat
+build/meson-private/meson_benchmark_setup.dat
+build/meson-private/meson_test_setup.dat
+build/meson-private/sanitycheckc.exe
+build/src/budgiepixelsaverapplet@sha/src_budgie-pixel-saver-applet-resources.c.o
+build/src/budgiepixelsaverapplet@sha/src_budgiepixelsaverapplet@sha_BudgiePixelSaverApplet.c.o
+build/src/budgiepixelsaverapplet@sha/src_budgiepixelsaverapplet@sha_TitleBarManager.c.o
+build/src/libbudgiepixelsaverapplet.so

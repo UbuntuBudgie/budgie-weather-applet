@@ -1,0 +1,28 @@
+Source: budgie-weather-applet
+Section: misc
+Priority: optional
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 9),
+ gobject-introspection,
+ libgtk-3-dev,
+ valac,
+ budgie-core-dev,
+ libbudgie-plugin0,
+ libgnome-desktop-3-dev,
+ meson,
+ libpeas-dev,
+ libgweather-3-dev
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/UbuntuBudgie/budgie-weather-applet/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/budgie-weather-applet -b debian
+Homepage: https://github.com/ilgarmehmetali/budgie-weather-applet
+
+
+Package: budgie-weather-applet
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: budgie-desktop weather applet
+ A budgie-desktop applet for displaying the weather in the panel.
+ With the choice of two providers controlled through the applet
+ settings, this applet displays the weather in an easy to
+ view manner

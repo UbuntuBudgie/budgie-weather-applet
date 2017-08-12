@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/budgie-weather-applet-$1\.tar\.gz/ \
+  https://github.com/ilgarmehmetali/budgie-weather-applet/tags .*/v?(\d\S*)\.tar\.gz
